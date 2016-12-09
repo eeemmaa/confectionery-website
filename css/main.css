@@ -1,3 +1,14 @@
 body {
   margin: 0;
+  font-family: 'Lora', serif;
+}
+
+.masthead {
+  background-image: url("../images/gummy-worms.jpg");
+  padding-top: 10em;
+  color: #fff;
+}
+
+h1, h3 {
+  font-family: 'Montserrat', sans-serif;
 }
