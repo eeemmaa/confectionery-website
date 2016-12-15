@@ -10,8 +10,9 @@ main {
 }
 
 .masthead {
-  color: #ba1515;
+  color: #fff;
   font-family: 'Molle', cursive;
+  background-color: #d14141;
 }
 
 header {
@@ -22,20 +23,37 @@ h1 {
   background-color: #fff;
 }
 
-h1, h3, footer {
+h1, h2, footer, nav a {
   font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+  color: #d14141;
+}
+
+nav {
+  background-color: #d14141;
+}
+
+nav a {
+  color: #fff;
+}
+
 nav a:hover {
-  color: #ed3333;
+  color: #751717;
 }
 
 li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 footer {
-  background-color: #ba1515;
+  background-color: #d14141;
   color: #fff;
   height: 3em;
 }
