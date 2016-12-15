@@ -5,15 +5,28 @@ body {
   background-size: 70px;
 }
 
+main {
+  background-color: #fff;
+}
+
 .masthead {
   color: #ba1515;
   font-family: 'Molle', cursive;
+}
+
+header {
+  background-color: #fff;
 }
 
 h1 {
   background-color: #fff;
 }
 
-h1, h3 {
+h1, h3, .footer-text {
   font-family: 'Montserrat', sans-serif;
+}
+
+.footer-text {
+  background-color: #ba1515;
+  color: #fff;
 }
