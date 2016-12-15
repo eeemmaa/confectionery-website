@@ -22,11 +22,20 @@ h1 {
   background-color: #fff;
 }
 
-h1, h3, .footer-text {
+h1, h3, footer {
   font-family: 'Montserrat', sans-serif;
 }
 
-.footer-text {
+nav a:hover {
+  color: #ed3333;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
   background-color: #ba1515;
   color: #fff;
+  height: 3em;
 }

@@ -369,8 +369,8 @@ svg.img-flex {
 .btn-light:hover,
 .btn--light:focus,
 .btn--light:hover {
-  background-color: #666;
-  border-color: #666;
+  background-color: #ed3333;
+  border-color: #ed3333;
   color: #fff;
 }
 
