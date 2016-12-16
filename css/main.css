@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Lora, serif;
   background-image: url("../images/repeat-img.svg");
   background-size: 70px;
 }
@@ -10,6 +11,7 @@ main {
 
 .masthead {
   color: #fff;
+  font-family: Molle, cursive;
   background-color: #b30000;
 }
 
@@ -24,6 +26,10 @@ h1 {
 a {
   text-decoration: none;
   color: #000;
+}
+
+h1, h2, footer, nav a {
+  font-family: Montserrat, sans-serif;
 }
 
 h2 {
