@@ -48,16 +48,13 @@ nav a:hover {
   color: #600;
 }
 
+li a:hover {
+  color: #b30000;
+}
+
 li {
   list-style-type: none;
 }
-
-/* .day {
-  border-bottom: solid 1px #000;
-  width: 10em;
-  text-align: center;
-  white-space: nowrap;
-} */
 
 footer {
   background-color: #b30000;
