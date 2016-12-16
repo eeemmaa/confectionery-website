@@ -49,7 +49,7 @@ nav a:hover {
 }
 
 li a:hover {
-  color: #b30000;
+  color: #600;
 }
 
 li {
@@ -57,7 +57,9 @@ li {
 }
 
 .ginger {
-  background-color: #f2f2f2;
+  border-bottom: solid 10px #b30000;
+  border-top: solid 10px #b30000;
+  background-color: #fbf6f6;
 }
 
 footer {
