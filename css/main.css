@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Lora', serif;
+  font-family: Lora, serif;
   background-image: url("../images/repeat-img.svg");
   background-size: 70px;
 }
@@ -11,7 +11,7 @@ main {
 
 .masthead {
   color: #fff;
-  font-family: 'Molle', cursive;
+  font-family: Molle, cursive;
   background-color: #b30000;
 }
 
@@ -23,12 +23,17 @@ h1 {
   background-color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 h1, h2, footer, nav a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 h2 {
-  color: #cc0000;
+  color: #c00;
 }
 
 nav {
@@ -40,24 +45,19 @@ nav a {
 }
 
 nav a:hover {
-  color: #660000;
+  color: #600;
 }
 
 li {
   list-style-type: none;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-/*.day {
+/* .day {
   border-bottom: solid 1px #000;
   width: 10em;
   text-align: center;
   white-space: nowrap;
-}*/
+} */
 
 footer {
   background-color: #b30000;
