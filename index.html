@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <title>Beau's Bonbons</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
@@ -14,67 +14,83 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#products">Location</a></li>
+    <li><a href="#about">Featured treats</a></li>
+    <li><a href="#hours">Reviews</a></li>
+    <li><a href="#contact">Contact us</a></li>
+  </ul>
 
-
-  <header class="push-0 wrapper">
+  <header class="push-0 wrapper" role="banner">
     <div class="embed embed-24by10">
       <img class="embed-item img-flex" src="images/banner.jpg" alt="This a banner of cake pops, which isn't candy.">
     </div>
     <h1 class="masthead yotta pad-t text-center pad-b-2 push-0">Beau's Bonbons</h1>
-    <nav class="pad-b">
+    <nav class="pad-b" role="navigation">
       <ul class="list-group-inline text-center push-0">
         <li class="gutter-2"><a href="#products">Products</a></li>
-        <li class="gutter-2"><a href="about">About</a></li>
+        <li class="gutter-2"><a href="#about">About</a></li>
         <li class="gutter-2"><a href="#hours">Hours</a></li>
         <li class="gutter-2"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="wrapper">
+  <main class="wrapper" role="main">
 
     <div class="grid">
-      <div class="unit xs-1 s-1  m-1 l-1">
+      <div class="unit xs-1 s-1 m-1 l-1">
 
-      <section class="max-length pad-t text-center pad-t-2">
-        <h2 class="tera">Holiday Pop-Up</h2>
-        <p class="milli">Check out Beau's Bonbons' Holiday Pop-Ups across Ottawa this December! The holidays are one of the best and busiest times of the year. We feel that candy is the great de-stresser and an awesome gift to boot!</p>
-      </section>
+        <section class="max-length pad-t text-center pad-t-2">
+          <h2 class="tera">Holiday Pop-Up</h2>
+          <p class="milli">Check out Beau's Bonbons' Holiday Pop-Ups across Ottawa this December! The holidays are one of the best and busiest times of the year. We feel that candy is the great de-stresser and an awesome gift to boot!</p>
+        </section>
 
-      <section class="max-length pad-t-2">
-        <h2 class="text-center tera">Products</h2>
+        <section class="max-length pad-t-2">
+          <h2 class="text-center tera">Products</h2>
           <div class="grid text-center">
-              <ul class="list-group-inline unit xs-1 s-1 m-1 l-1">
-                <div class="grid">
-                  <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+            <div class="list-group-inline unit xs-1 s-1 m-1 l-1">
+
+              <div class="grid">
+                <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+                  <ul>
                     <li>
                       <i class="icon i-48"><img src="images/sweet.svg" alt=""></i>
                     </li>
                     <li class="icon-label">Sweet</li>
-                  </div>
+                  </ul>
+                </div>
 
-                  <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+                <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+                  <ul>
                     <li>
                       <i class="icon i-48"><img src="images/spicy.svg" alt=""></i>
                     </li>
                     <li class="icon-label">Spicy</li>
-                  </div>
+                  </ul>
+                </div>
 
-                  <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+                <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+                  <ul>
                     <li>
                       <i class="icon i-48"><img src="images/vegan.svg" alt=""></i>
                     </li>
                     <li class="icon-label">Vegan</li>
-                  </div>
+                  </ul>
+                </div>
 
-                  <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+                <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
+                  <ul>
                     <li>
                       <i class="icon i-48"><img src="images/gift-basket.svg" alt=""></i>
                     </li>
                     <li class="icon-label">Gift Baskets</li>
-                  </div>
+                  </ul>
                 </div>
+              </div>
+
             </div>
+          </div>
         </section>
 
         <section class="max-length pad-t-2 text-center">
@@ -87,22 +103,26 @@
             <h2 class="tera">Hours</h2>
             <p class="milli italic">Follow us on facebook for our exclusive locations in December!</p>
           </div>
-          <div>
-            <div class="grid">
-              <ul class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
-                <div class="grid">
-                  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
+
+              <div class="grid">
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+                  <ul>
                     <li class="bold day">Thursdays</li>
                     <li>11am–5pm</li>
-                  </div>
-                  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+                  </ul>
+                </div>
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+                  <ul>
                     <li class="bold day">Sat & Sun</li>
                     <li>10am–3pm</li>
-                  </div>
-                </ul>
+                  </ul>
+                </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
         <section class="max-length pad-t-2 text-center">
           <h2 class="tera">Contact</h2>
@@ -110,24 +130,25 @@
 
           <div class="grid text-center">
             <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-              <ul>
-                <div class="grid gutter-1-4">
-                  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 list-group-inline push-2">
-                    <li>
-                      <i class="icon i-32"><img src="images/fb.svg" alt=""></i>
-                    </li>
-                    <li><a class="icon-label milli">Beau's Bonbons</a></li>
-                  </div>
-                  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 list-group-inline">
-                    <li>
-                      <i class="icon i-32"><img src="images/phone.svg" alt=""></i>
-                    </li>
-                    <li><span class="icon-label milli">613-204-8357</span></li>
-                  </div>
+              <div class="grid gutter-1-4">
+                <ul class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 list-group-inline push-2">
+                  <li>
+                    <i class="icon i-32"><img src="images/fb.svg" alt=""></i>
+                  </li>
+                  <li><a class="icon-label milli">Beau's Bonbons</a></li>
+                </ul>
+                <ul class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 list-group-inline">
+                  <li>
+                    <i class="icon i-32"><img src="images/phone.svg" alt=""></i>
+                  </li>
+                  <li><span class="icon-label milli">613-204-8357</span></li>
                 </ul>
               </div>
             </div>
+          </div>
+        </section>
 
+        <section>
           <div class="max-length pad-b-2">
             <form class="push-0" method="POST" action="https://formspree.io/emmabw@live.co.uk">
               <div class="push text-left">
@@ -148,10 +169,9 @@
     </div>
   </main>
 
-  <footer class="text-center wrapper">
+  <footer class="text-center wrapper" role="contentinfo">
     <p class="micro push-0 pad-t-1-2">2016 © Beau's Bonbons • Icons created by lipi & John T. Garcia • The Noun Project</p>
   </footer>
-
 
 </body>
 </html>
