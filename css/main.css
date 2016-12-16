@@ -12,7 +12,7 @@ main {
 .masthead {
   color: #fff;
   font-family: 'Molle', cursive;
-  background-color: #d14141;
+  background-color: #b30000;
 }
 
 header {
@@ -28,11 +28,11 @@ h1, h2, footer, nav a {
 }
 
 h2 {
-  color: #d14141;
+  color: #cc0000;
 }
 
 nav {
-  background-color: #d14141;
+  background-color: #b30000;
 }
 
 nav a {
@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #751717;
+  color: #660000;
 }
 
 li {
@@ -52,8 +52,15 @@ a {
   color: #000;
 }
 
+/*.day {
+  border-bottom: solid 1px #000;
+  width: 10em;
+  text-align: center;
+  white-space: nowrap;
+}*/
+
 footer {
-  background-color: #d14141;
+  background-color: #b30000;
   color: #fff;
   height: 3em;
 }
